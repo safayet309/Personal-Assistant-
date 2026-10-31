@@ -1,0 +1,9 @@
+body { font-family: sans-serif; margin: 0; background: #f3f4f6; }
+main { max-width: 600px; margin: auto; padding: 16px; }
+#chat { min-height: 60vh; display: flex; flex-direction: column; gap: 8px; }
+.msg { padding: 10px 14px; border-radius: 12px; max-width: 85%; white-space: pre-wrap; }
+.me { background: #2563eb; color: #fff; align-self: flex-end; }
+.bot { background: #fff; align-self: flex-start; }
+.bar { display: flex; gap: 8px; margin-top: 12px; }
+.bar input { flex: 1; padding: 10px; font-size: 16px; }
+.bar button { padding: 10px 14px; font-size: 16px; }
