@@ -63,3 +63,5 @@ document.getElementById('mic').onclick = () => {
   rec.onresult = e => { input.value = e.results[0][0].transcript; };
   rec.start();
 };
+addMsg('কোড লোড হয়েছে। ভয়েস সাপোর্ট: ' + (SR ? 'আছে' : 'নেই'), 'bot');
+document.getElementById('mic').addEventListener('click', () => addMsg('মাইক বাটন চাপা হয়েছে', 'bot'));
