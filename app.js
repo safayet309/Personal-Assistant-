@@ -59,7 +59,7 @@ const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
 document.getElementById('mic').onclick = () => {
   if (!SR) return alert('এই ব্রাউজারে ভয়েস চলে না, Chrome ব্যবহার করো');
   const rec = new SR();
-  rec.lang = 'bn-BD';
+  rec.lang = 'bn-IN';
   rec.onresult = e => { input.value = e.results[0][0].transcript; };
   rec.start();
 };
